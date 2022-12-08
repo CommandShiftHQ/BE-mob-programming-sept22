@@ -17,4 +17,4 @@ If you get this error it just means you already have something running on port 3
 We can run this in the terminal to the PID or process id of the thing running on 3000
 `sudo lsof -n -i :3000 | grep LISTEN`
 
-and then we can kill it by running `kill ` and then the process id.
+and then we can kill it by running `kill` and then the process id... so process id of 9999 it would be `kill 9999`.
